@@ -34,7 +34,8 @@ Each write-up includes the platform/range used, tools leveraged, the flags captu
 
 * 📄 [Threat Hunt CTF Report](https://github.com/TeShawnYoung/Threat-Hunt-CTF-Report-Password-Spray-to-Lateral-Movement-NPT-WS01-/blob/main/README.md)
 * 🔎 [KQL Queries & Steps Taken](https://github.com/TeShawnYoung/Threat-Hunt-CTF-Report-Password-Spray-to-Lateral-Movement-NPT-WS01-/blob/main/README.md#steps-taken)
-* 🚩 [Flags Captured](https://github.com/TeShawnYoung/Threat-Hunt-CTF-Report-Password-Spray-to-Lateral-Movement-NPT-WS01-/blob/main/README.md#2-detection--analysis)
+* 🗓️ [Event Timeline](https://github.com/TeShawnYoung/Threat-Hunt-CTF-Report-Password-Spray-to-Lateral-Movement-NPT-WS01-/blob/main/README.md#event-timeline)
+* 🎯 [MITRE ATT&CK Mapping](https://github.com/TeShawnYoung/Threat-Hunt-CTF-Report-Password-Spray-to-Lateral-Movement-NPT-WS01-/blob/main/README.md#mitre-attck-ttp-alignment)
 * 🛠️ [Response Taken](https://github.com/TeShawnYoung/Threat-Hunt-CTF-Report-Password-Spray-to-Lateral-Movement-NPT-WS01-/blob/main/README.md#response-taken)
 
 <!--
@@ -56,7 +57,8 @@ Template for the next entry. Duplicate this block for each new challenge.
 
 * 📄 [Threat Hunt CTF Report](link)
 * 🔎 [KQL Queries & Steps Taken](link#steps-taken)
-* 🚩 [Flags Captured](link)
+* 🗓️ [Event Timeline](link#event-timeline)
+* 🎯 [MITRE ATT&CK Mapping](link#mitre-attck-ttp-alignment)
 * 🛠️ [Response Taken](link#response-taken)
 -->
 
