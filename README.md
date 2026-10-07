@@ -12,35 +12,53 @@ Each write-up includes the platform/range used, tools leveraged, the flags captu
 
 ## Core Threat Hunting CTF Challenges
 
-<!--
-Add one numbered entry per completed CTF using the template below.
-Duplicate this block for each new challenge, then remove this comment.
+### 1. 🚩 Threat Hunt CTF Report: Password Spray to Lateral Movement (NPT-WS01)
 
-### #. 🚩 [Challenge/Room Name] <a href="[repo or write-up link]"><img src="https://img.shields.io/badge/--555555?style=flat&logo=github&logoColor=white" height="20"/></a>
+**Focus:** Investigating overnight login prompts on a Finance workstation, which turned out to be a Remote Desktop password spray followed by implant execution, persistence and movement toward a second host.
 
-**Platform:** [e.g. TryHackMe, HackTheBox, Blue Team Labs Online, LetsDefend, CyberDefenders]
+**Platforms and Languages Leveraged:**
 
-**Focus:** One or two sentences on what the challenge scenario covers.
+* Windows Server 2022 Virtual Machines (Microsoft Azure)
+* EDR Platform: Microsoft Defender for Endpoint
+* Kusto Query Language (KQL)
 
-**Tools & Data Sources Used:**
+**Key Capabilities:**
 
-- [e.g. Splunk, Wireshark, Sysmon logs, KQL, Volatility]
-
-**Flags Captured:**
-
-- Flag 1 — short description of what it required
-- Flag 2 — short description of what it required
-
-**Key Techniques / Findings:**
-
-- [Notable IOC identification, pivot, or technique used to solve a flag]
+* Logon event analysis to identify the compromised account and the attacker's source IP
+* Process tree analysis to confirm remote WMI execution of the implant
+* Network and file event analysis to find the C2 domain and the dropped implant's hash
+* Persistence hunting across Run keys, scheduled tasks, services and local accounts
+* Cross-host scoping with alert evidence, and a NIST 800-61 containment plan
 
 **Resources:**
 
-- 📄 [Write-up](link)
--->
+* 📄 [Threat Hunt CTF Report](https://github.com/TeShawnYoung/Threat-Hunt-CTF-Report-Password-Spray-to-Lateral-Movement-NPT-WS01-/blob/main/README.md)
+* 🔎 [KQL Queries & Steps Taken](https://github.com/TeShawnYoung/Threat-Hunt-CTF-Report-Password-Spray-to-Lateral-Movement-NPT-WS01-/blob/main/README.md#steps-taken)
+* 🚩 [Flags Captured](https://github.com/TeShawnYoung/Threat-Hunt-CTF-Report-Password-Spray-to-Lateral-Movement-NPT-WS01-/blob/main/README.md#2-detection--analysis)
+* 🛠️ [Response Taken](https://github.com/TeShawnYoung/Threat-Hunt-CTF-Report-Password-Spray-to-Lateral-Movement-NPT-WS01-/blob/main/README.md#response-taken)
 
-*No challenges have been added yet — entries will be added here as CTFs are completed.*
+<!--
+Template for the next entry. Duplicate this block for each new challenge.
+
+### #. 🚩 [Report title]
+
+**Focus:** One sentence on what the challenge scenario covers.
+
+**Platforms and Languages Leveraged:**
+
+* [e.g. Microsoft Defender for Endpoint, Splunk, KQL]
+
+**Key Capabilities:**
+
+* [Up to five short lines on the analysis done]
+
+**Resources:**
+
+* 📄 [Threat Hunt CTF Report](link)
+* 🔎 [KQL Queries & Steps Taken](link#steps-taken)
+* 🚩 [Flags Captured](link)
+* 🛠️ [Response Taken](link#response-taken)
+-->
 
 ---
 
