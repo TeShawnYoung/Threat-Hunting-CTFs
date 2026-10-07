@@ -12,7 +12,7 @@ Each write-up includes the platform/range used, tools leveraged, the flags captu
 
 ## Core Threat Hunting CTF Challenges
 
-### 1. 🚩 Threat Hunt CTF Report: Password Spray to Lateral Movement (NPT-WS01)
+### 1. 🚩 Threat Hunt CTF Report: Password Spray to Lateral Movement (NPT-WS01) <a href="https://github.com/TeShawnYoung/Threat-Hunt-CTF-Report-Password-Spray-to-Lateral-Movement-NPT-WS01-/blob/main/README.md"><img src="https://img.shields.io/badge/--555555?style=flat&logo=github&logoColor=white" height="20"/></a>
 
 **Focus:** Investigating overnight login prompts on a Finance workstation, which turned out to be a Remote Desktop password spray followed by implant execution, persistence and movement toward a second host.
 
